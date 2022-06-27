@@ -2,6 +2,8 @@ package com.mikaelsonbraz.CRIACIONAL.abstractMethod.factories;
 
 import com.mikaelsonbraz.CRIACIONAL.abstractMethod.aircraftVehicles.AircraftVehicle;
 import com.mikaelsonbraz.CRIACIONAL.abstractMethod.aircraftVehicles.Airplane;
+import com.mikaelsonbraz.CRIACIONAL.abstractMethod.boatVehicles.BoatVehicle;
+import com.mikaelsonbraz.CRIACIONAL.abstractMethod.boatVehicles.Ship;
 import com.mikaelsonbraz.CRIACIONAL.abstractMethod.landVehicles.Car;
 import com.mikaelsonbraz.CRIACIONAL.abstractMethod.landVehicles.LandVehicle;
 
@@ -15,5 +17,10 @@ public class UberTransport implements TransportFactory{
     @Override
     public AircraftVehicle createAircraftVehicle() {
         return new Airplane();
+    }
+
+    @Override
+    public BoatVehicle createBoatVehicle(){
+        return new Ship();
     }
 }

@@ -4,6 +4,7 @@ public class Car implements LandVehicle{
 
     @Override
     public void startRoute() {
+        System.out.println("-UBER--CAR-");
         getCargo();
         System.out.println("Iniciando o trajeto...");
     }

@@ -4,6 +4,7 @@ public class Airplane implements AircraftVehicle{
 
     @Override
     public void startRoute() {
+        System.out.println("-UBER--AIRPLANE-");
         wind();
         getCargo();
         System.out.println("Iniciando a viagem...");

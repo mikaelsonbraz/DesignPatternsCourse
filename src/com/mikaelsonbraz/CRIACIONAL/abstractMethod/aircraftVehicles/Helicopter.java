@@ -4,6 +4,7 @@ public class Helicopter implements AircraftVehicle{
 
     @Override
     public void startRoute() {
+        System.out.println("-99--HELICOPTER-");
         wind();
         getCargo();
         System.out.println("Inciando o trajeto...");
