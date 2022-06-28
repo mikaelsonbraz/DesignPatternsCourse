@@ -19,6 +19,6 @@ public class Payoneer implements PayoneerPayments{
 
     @Override
     public void receivePayment() {
-        System.out.println("PAYONEER - Pagamento recebido com sucessso.");
+        System.out.println("PAYONEER - Pagamento recebido com sucesso.");
     }
 }

@@ -11,7 +11,7 @@ public class PayoneerAdapter implements PaypalPayments {
 
     public PayoneerAdapter(Payoneer payoneer) {
         this.payoneer = payoneer;
-        System.out.println("Adaptando o payoneer utilizando os métodos padrões do Paypal.");
+        System.out.println("Adaptando o Payoneer utilizando os métodos padrões do Paypal.");
     }
 
     @Override
