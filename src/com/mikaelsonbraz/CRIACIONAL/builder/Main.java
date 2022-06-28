@@ -23,5 +23,11 @@ public class Main {
         director.contructTruck(truckBuilder);
         Truck truck = truckBuilder.getResult();
         System.out.println(truck.result());
+
+        //DESAFIO: Criando um carro esportivo
+        CarBuilder carBuilderSport = new CarBuilder();
+        director.constructSportsCar(carBuilderSport);
+        Car sportCar = carBuilderSport.getResult();
+        System.out.println(sportCar.getCarType() + " produzido com sucesso!");
     }
 }

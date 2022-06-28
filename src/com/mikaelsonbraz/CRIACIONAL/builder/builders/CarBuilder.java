@@ -9,6 +9,7 @@ public class CarBuilder implements Builder{
 
     private CarType carType;
     private int seats;
+    private String color;
     private Transmission transmission;
     private Engine engine;
 
@@ -23,6 +24,11 @@ public class CarBuilder implements Builder{
     }
 
     @Override
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    @Override
     public void setTransmission(Transmission transmission) {
         this.transmission = transmission;
     }
@@ -33,6 +39,6 @@ public class CarBuilder implements Builder{
     }
 
     public Car getResult(){
-        return new Car(carType, seats, engine, transmission);
+        return new Car(carType, seats, color, engine, transmission);
     }
 }
