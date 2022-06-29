@@ -1,11 +1,7 @@
 package com.mikaelsonbraz.ESTRUTURAL.adapter;
 
-import com.mikaelsonbraz.ESTRUTURAL.adapter.adapters.MercadoPagoAdapter;
 import com.mikaelsonbraz.ESTRUTURAL.adapter.adapters.PayoneerAdapter;
-import com.mikaelsonbraz.ESTRUTURAL.adapter.mercadoPago.MercadoPago;
-import com.mikaelsonbraz.ESTRUTURAL.adapter.mercadoPago.MercadoPagoPayments;
 import com.mikaelsonbraz.ESTRUTURAL.adapter.payoneer.Payoneer;
-import com.mikaelsonbraz.ESTRUTURAL.adapter.paypal.Paypal;
 import com.mikaelsonbraz.ESTRUTURAL.adapter.paypal.PaypalPayments;
 
 public class Main {
